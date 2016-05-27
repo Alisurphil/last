@@ -852,11 +852,11 @@
                         <viewControllerLayoutGuide type="bottom" id="ncL-4Y-iKl"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZTC-Xf-B2N">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1oo-Iv-0Nl">
-                                <rect key="frame" x="63" y="169" width="248" height="43"/>
+                                <rect key="frame" x="63" y="178" width="193" height="33.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="1oo-Iv-0Nl" secondAttribute="height" multiplier="248:43" id="5dr-T3-V4C"/>
                                     <constraint firstAttribute="width" secondItem="1oo-Iv-0Nl" secondAttribute="height" multiplier="248:43" id="DNw-pr-Aor"/>
@@ -870,7 +870,7 @@
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="247" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="请确认密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IIn-4G-C2O">
-                                <rect key="frame" x="63" y="261" width="248" height="43"/>
+                                <rect key="frame" x="63" y="261" width="193" height="33.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="IIn-4G-C2O" secondAttribute="height" multiplier="248:43" id="dKX-He-0lh"/>
                                     <constraint firstAttribute="width" secondItem="IIn-4G-C2O" secondAttribute="height" multiplier="248:43" id="uZl-GJ-Qer"/>
@@ -884,7 +884,7 @@
                                 </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fd1-bN-F5t">
-                                <rect key="frame" x="63" y="357" width="248" height="30"/>
+                                <rect key="frame" x="63" y="347" width="193" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Fd1-bN-F5t" secondAttribute="height" multiplier="124:15" id="D3a-kT-tLf"/>
                                 </constraints>
@@ -933,11 +933,11 @@
                             </mask>
                         </variation>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kzK-bR-he5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1249.5" y="3294.5"/>
+            <point key="canvasLocation" x="1105" y="3251"/>
         </scene>
         <!--个人资料-->
         <scene sceneID="TdF-qE-zJs">
