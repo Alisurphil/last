@@ -1,18 +1,18 @@
 //
-//  YYZhuceViewController.m
+//  YYMimaViewController.m
 //  last
 //
-//  Created by 袁文轶 on 16/5/25.
+//  Created by 袁文轶 on 16/5/26.
 //  Copyright © 2016年 袁文轶. All rights reserved.
 //
 
-#import "YYZhuceViewController.h"
+#import "YYMimaViewController.h"
 
-@interface YYZhuceViewController ()
+@interface YYMimaViewController ()
 
 @end
 
-@implementation YYZhuceViewController
+@implementation YYMimaViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -7,8 +7,10 @@
 //
 
 #import "YYLoginViewController.h"
-
+#import "YYYanzhenViewController.h"
+#import "AppDelegate.h"
 @interface YYLoginViewController ()
+
 
 @end
 
@@ -16,7 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationController.navigationBarHidden = YES;
+    
     // Do any additional setup after loading the view.
+
+}
+-(void)viewWillAppear:(BOOL)animated{
+    self.navigationController.navigationBarHidden = YES;
+
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,5 +43,6 @@
     // Pass the selected object to the new view controller.
 }
 */
+
 
 @end

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C832263D7D0E456118B36D60 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C5A7159F22866A6D716449 /* libPods.a */; };
+		FE02C8B61CF7F69200AF3717 /* YYloginNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE02C8B51CF7F69200AF3717 /* YYloginNavViewController.m */; };
+		FE5F70071CF6C06C0021C5B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5F70061CF6C06C0021C5B5 /* Foundation.framework */; };
+		FED6A21C1CF690820040F54F /* YYHomeJiexiaoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6A21B1CF690820040F54F /* YYHomeJiexiaoTableViewCell.m */; };
+		FED6A21F1CF690B50040F54F /* YYHotTuijianTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6A21E1CF690B50040F54F /* YYHotTuijianTableViewCell.m */; };
+		FED6A2641CF699FC0040F54F /* YYJiexiaoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6A2631CF699FC0040F54F /* YYJiexiaoCollectionViewCell.m */; };
+		FED6A2671CF6A6EF0040F54F /* YYYanzhenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6A2661CF6A6EF0040F54F /* YYYanzhenViewController.m */; };
+		FED6A26A1CF6A6FD0040F54F /* YYMimaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6A2691CF6A6FD0040F54F /* YYMimaViewController.m */; };
+		FED6A26D1CF6A7B90040F54F /* YYListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6A26C1CF6A7B90040F54F /* YYListTableViewCell.m */; };
 		FEFB09571CEE9C590047ED8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFB09561CEE9C590047ED8C /* main.m */; };
 		FEFB095A1CEE9C590047ED8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFB09591CEE9C590047ED8C /* AppDelegate.m */; };
 		FEFB095D1CEE9C590047ED8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFB095C1CEE9C590047ED8C /* ViewController.m */; };
@@ -35,7 +44,6 @@
 		FEFCAA9A1CF5A1160000B2FC /* YYChongzhiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAA991CF5A1160000B2FC /* YYChongzhiViewController.m */; };
 		FEFCAA9D1CF5A1220000B2FC /* YYKefuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAA9C1CF5A1220000B2FC /* YYKefuViewController.m */; };
 		FEFCAAA01CF5A1300000B2FC /* YYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAA9F1CF5A1300000B2FC /* YYLoginViewController.m */; };
-		FEFCAAA31CF5A13F0000B2FC /* YYZhuceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAAA21CF5A13F0000B2FC /* YYZhuceViewController.m */; };
 		FEFCAAAA1CF5A2B90000B2FC /* YYGerenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAAA91CF5A2B90000B2FC /* YYGerenTableViewController.m */; };
 		FEFCAAAE1CF5A74D0000B2FC /* YYTongzhiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAAAD1CF5A74D0000B2FC /* YYTongzhiViewController.m */; };
 		FEFCAAB11CF5A7670000B2FC /* YYTxiangqingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAAB01CF5A7670000B2FC /* YYTxiangqingViewController.m */; };
@@ -66,6 +74,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23FFA449334C15DFE599F52C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		52C5A7159F22866A6D716449 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8299B908B9004428D633287F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FE02C8B41CF7F69200AF3717 /* YYloginNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYloginNavViewController.h; sourceTree = "<group>"; };
+		FE02C8B51CF7F69200AF3717 /* YYloginNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYloginNavViewController.m; sourceTree = "<group>"; };
+		FE5F70051CF6BE560021C5B5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FE5F70061CF6C06C0021C5B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FED6A21A1CF690820040F54F /* YYHomeJiexiaoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHomeJiexiaoTableViewCell.h; sourceTree = "<group>"; };
+		FED6A21B1CF690820040F54F /* YYHomeJiexiaoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHomeJiexiaoTableViewCell.m; sourceTree = "<group>"; };
+		FED6A21D1CF690B50040F54F /* YYHotTuijianTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHotTuijianTableViewCell.h; sourceTree = "<group>"; };
+		FED6A21E1CF690B50040F54F /* YYHotTuijianTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHotTuijianTableViewCell.m; sourceTree = "<group>"; };
+		FED6A2621CF699FC0040F54F /* YYJiexiaoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJiexiaoCollectionViewCell.h; sourceTree = "<group>"; };
+		FED6A2631CF699FC0040F54F /* YYJiexiaoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJiexiaoCollectionViewCell.m; sourceTree = "<group>"; };
+		FED6A2651CF6A6EF0040F54F /* YYYanzhenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYYanzhenViewController.h; sourceTree = "<group>"; };
+		FED6A2661CF6A6EF0040F54F /* YYYanzhenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYYanzhenViewController.m; sourceTree = "<group>"; };
+		FED6A2681CF6A6FD0040F54F /* YYMimaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMimaViewController.h; sourceTree = "<group>"; };
+		FED6A2691CF6A6FD0040F54F /* YYMimaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMimaViewController.m; sourceTree = "<group>"; };
+		FED6A26B1CF6A7B90040F54F /* YYListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYListTableViewCell.h; sourceTree = "<group>"; };
+		FED6A26C1CF6A7B90040F54F /* YYListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYListTableViewCell.m; sourceTree = "<group>"; };
 		FEFB09521CEE9C590047ED8C /* last.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = last.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFB09561CEE9C590047ED8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEFB09581CEE9C590047ED8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -121,8 +148,6 @@
 		FEFCAA9C1CF5A1220000B2FC /* YYKefuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKefuViewController.m; sourceTree = "<group>"; };
 		FEFCAA9E1CF5A1300000B2FC /* YYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLoginViewController.h; sourceTree = "<group>"; };
 		FEFCAA9F1CF5A1300000B2FC /* YYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLoginViewController.m; sourceTree = "<group>"; };
-		FEFCAAA11CF5A13F0000B2FC /* YYZhuceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYZhuceViewController.h; sourceTree = "<group>"; };
-		FEFCAAA21CF5A13F0000B2FC /* YYZhuceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYZhuceViewController.m; sourceTree = "<group>"; };
 		FEFCAAA81CF5A2B90000B2FC /* YYGerenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYGerenTableViewController.h; sourceTree = "<group>"; };
 		FEFCAAA91CF5A2B90000B2FC /* YYGerenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYGerenTableViewController.m; sourceTree = "<group>"; };
 		FEFCAAAC1CF5A74D0000B2FC /* YYTongzhiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTongzhiViewController.h; sourceTree = "<group>"; };
@@ -150,6 +175,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5F70071CF6C06C0021C5B5 /* Foundation.framework in Frameworks */,
+				C832263D7D0E456118B36D60 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +197,130 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63E5A31D667B3D133898F45F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE5F70061CF6C06C0021C5B5 /* Foundation.framework */,
+				52C5A7159F22866A6D716449 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC3C9F5FA2291B05FBB59750 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8299B908B9004428D633287F /* Pods.debug.xcconfig */,
+				23FFA449334C15DFE599F52C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FED6A20C1CF68CAC0040F54F /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				FED6A21A1CF690820040F54F /* YYHomeJiexiaoTableViewCell.h */,
+				FED6A21B1CF690820040F54F /* YYHomeJiexiaoTableViewCell.m */,
+				FED6A21D1CF690B50040F54F /* YYHotTuijianTableViewCell.h */,
+				FED6A21E1CF690B50040F54F /* YYHotTuijianTableViewCell.m */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		FED6A20D1CF68CC40040F54F /* 最新揭晓 */ = {
+			isa = PBXGroup;
+			children = (
+				FED6A2621CF699FC0040F54F /* YYJiexiaoCollectionViewCell.h */,
+				FED6A2631CF699FC0040F54F /* YYJiexiaoCollectionViewCell.m */,
+			);
+			name = "最新揭晓";
+			sourceTree = "<group>";
+		};
+		FED6A20E1CF68CD30040F54F /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "分类";
+			sourceTree = "<group>";
+		};
+		FED6A20F1CF68CE30040F54F /* 清单 */ = {
+			isa = PBXGroup;
+			children = (
+				FED6A26B1CF6A7B90040F54F /* YYListTableViewCell.h */,
+				FED6A26C1CF6A7B90040F54F /* YYListTableViewCell.m */,
+			);
+			name = "清单";
+			sourceTree = "<group>";
+		};
+		FED6A2101CF68CF70040F54F /* 个人中心 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "个人中心";
+			sourceTree = "<group>";
+		};
+		FED6A2111CF68D1D0040F54F /* 商品详情 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "商品详情";
+			sourceTree = "<group>";
+		};
+		FED6A2121CF68D4F0040F54F /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		FED6A2131CF68D560040F54F /* 最新揭晓 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "最新揭晓";
+			sourceTree = "<group>";
+		};
+		FED6A2141CF68D5F0040F54F /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "分类";
+			sourceTree = "<group>";
+		};
+		FED6A2151CF68D680040F54F /* 清单 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "清单";
+			sourceTree = "<group>";
+		};
+		FED6A2161CF68D760040F54F /* 个人中心 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "个人中心";
+			sourceTree = "<group>";
+		};
+		FED6A2171CF68D970040F54F /* 商品详情 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "商品详情";
+			sourceTree = "<group>";
+		};
+		FED6A2181CF68DA10040F54F /* 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "搜索";
+			sourceTree = "<group>";
+		};
+		FED6A2191CF68DBD0040F54F /* 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "搜索";
+			sourceTree = "<group>";
+		};
 		FEFB09491CEE9C590047ED8C = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +328,8 @@
 				FEFB09711CEE9C590047ED8C /* lastTests */,
 				FEFB097C1CEE9C590047ED8C /* lastUITests */,
 				FEFB09531CEE9C590047ED8C /* Products */,
+				EC3C9F5FA2291B05FBB59750 /* Pods */,
+				63E5A31D667B3D133898F45F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,6 +347,7 @@
 			isa = PBXGroup;
 			children = (
 				FEFB098B1CEEA0260047ED8C /* Base */,
+				FEFCAA561CF576D30000B2FC /* Model */,
 				FEFCAA571CF57C2D0000B2FC /* View */,
 				FEFCAA4E1CF54A8B0000B2FC /* Controller */,
 				FEFB09551CEE9C590047ED8C /* Supporting Files */,
@@ -205,8 +359,8 @@
 			isa = PBXGroup;
 			children = (
 				FEFB09581CEE9C590047ED8C /* AppDelegate.h */,
-				FEFB095B1CEE9C590047ED8C /* ViewController.h */,
 				FEFB09591CEE9C590047ED8C /* AppDelegate.m */,
+				FEFB095B1CEE9C590047ED8C /* ViewController.h */,
 				FEFB095C1CEE9C590047ED8C /* ViewController.m */,
 				FEFB095E1CEE9C590047ED8C /* Main.storyboard */,
 				FEFB09641CEE9C590047ED8C /* Assets.xcassets */,
@@ -214,6 +368,7 @@
 				FEFB09691CEE9C590047ED8C /* Info.plist */,
 				FEFB09611CEE9C590047ED8C /* last.xcdatamodeld */,
 				FEFB09561CEE9C590047ED8C /* main.m */,
+				FE5F70051CF6BE560021C5B5 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -239,7 +394,6 @@
 		FEFB098B1CEEA0260047ED8C /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				FEFCAA561CF576D30000B2FC /* Model */,
 				FEFB098C1CEEA0680047ED8C /* YYViewController.h */,
 				FEFB098D1CEEA0680047ED8C /* YYViewController.m */,
 			);
@@ -258,22 +412,7 @@
 		FEFCAA4E1CF54A8B0000B2FC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FEFCAAB31CF5A7AC0000B2FC /* 地址列表 */,
-				FEFCAAB21CF5A79C0000B2FC /* 修改手机号 */,
-				FEFCAAAB1CF5A7190000B2FC /* 通知 */,
-				FEFCAAA41CF5A2670000B2FC /* 个人资料 */,
-				FEFCAA7F1CF59A350000B2FC /* 快速注册 */,
 				FEFCAA7E1CF59A2D0000B2FC /* 登录 */,
-				FEFCAA7D1CF59A200000B2FC /* 客服 */,
-				FEFCAA7C1CF59A160000B2FC /* 充值记录 */,
-				FEFCAA7B1CF59A0B0000B2FC /* 我的宝石 */,
-				FEFCAA7A1CF59A040000B2FC /* 晒单 */,
-				FEFCAA791CF599F70000B2FC /* 心愿单 */,
-				FEFCAA781CF599F00000B2FC /* 红包 */,
-				FEFCAA771CF599E00000B2FC /* 购买记录 */,
-				FEFCAA761CF599CA0000B2FC /* 幸运记录 */,
-				FEFCAA751CF599AD0000B2FC /* 多期参与 */,
-				FEFCAA741CF599930000B2FC /* 夺宝记录 */,
 				FEFCAA581CF5833C0000B2FC /* 商品详情 */,
 				FEFCAA521CF54C600000B2FC /* 个人中心 */,
 				FEFCAA511CF54C590000B2FC /* 清单 */,
@@ -315,6 +454,20 @@
 		FEFCAA521CF54C600000B2FC /* 个人中心 */ = {
 			isa = PBXGroup;
 			children = (
+				FEFCAAB31CF5A7AC0000B2FC /* 地址列表 */,
+				FEFCAAB21CF5A79C0000B2FC /* 修改手机号 */,
+				FEFCAAAB1CF5A7190000B2FC /* 通知 */,
+				FEFCAAA41CF5A2670000B2FC /* 个人资料 */,
+				FEFCAA7D1CF59A200000B2FC /* 客服 */,
+				FEFCAA7C1CF59A160000B2FC /* 充值记录 */,
+				FEFCAA7B1CF59A0B0000B2FC /* 我的宝石 */,
+				FEFCAA7A1CF59A040000B2FC /* 晒单 */,
+				FEFCAA791CF599F70000B2FC /* 心愿单 */,
+				FEFCAA781CF599F00000B2FC /* 红包 */,
+				FEFCAA771CF599E00000B2FC /* 购买记录 */,
+				FEFCAA761CF599CA0000B2FC /* 幸运记录 */,
+				FEFCAA751CF599AD0000B2FC /* 多期参与 */,
+				FEFCAA741CF599930000B2FC /* 夺宝记录 */,
 				FEFCAA6E1CF596950000B2FC /* YYPersonTableViewController.h */,
 				FEFCAA6F1CF596950000B2FC /* YYPersonTableViewController.m */,
 			);
@@ -333,6 +486,13 @@
 		FEFCAA561CF576D30000B2FC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FED6A2181CF68DA10040F54F /* 搜索 */,
+				FED6A2171CF68D970040F54F /* 商品详情 */,
+				FED6A2161CF68D760040F54F /* 个人中心 */,
+				FED6A2151CF68D680040F54F /* 清单 */,
+				FED6A2141CF68D5F0040F54F /* 分类 */,
+				FED6A2131CF68D560040F54F /* 最新揭晓 */,
+				FED6A2121CF68D4F0040F54F /* 首页 */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -340,6 +500,13 @@
 		FEFCAA571CF57C2D0000B2FC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FED6A2191CF68DBD0040F54F /* 搜索 */,
+				FED6A2111CF68D1D0040F54F /* 商品详情 */,
+				FED6A2101CF68CF70040F54F /* 个人中心 */,
+				FED6A20F1CF68CE30040F54F /* 清单 */,
+				FED6A20E1CF68CD30040F54F /* 分类 */,
+				FED6A20D1CF68CC40040F54F /* 最新揭晓 */,
+				FED6A20C1CF68CAC0040F54F /* 首页 */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -452,8 +619,11 @@
 		FEFCAA7E1CF59A2D0000B2FC /* 登录 */ = {
 			isa = PBXGroup;
 			children = (
+				FEFCAA7F1CF59A350000B2FC /* 快速注册 */,
 				FEFCAA9E1CF5A1300000B2FC /* YYLoginViewController.h */,
 				FEFCAA9F1CF5A1300000B2FC /* YYLoginViewController.m */,
+				FE02C8B41CF7F69200AF3717 /* YYloginNavViewController.h */,
+				FE02C8B51CF7F69200AF3717 /* YYloginNavViewController.m */,
 			);
 			name = "登录";
 			sourceTree = "<group>";
@@ -461,8 +631,10 @@
 		FEFCAA7F1CF59A350000B2FC /* 快速注册 */ = {
 			isa = PBXGroup;
 			children = (
-				FEFCAAA11CF5A13F0000B2FC /* YYZhuceViewController.h */,
-				FEFCAAA21CF5A13F0000B2FC /* YYZhuceViewController.m */,
+				FED6A2651CF6A6EF0040F54F /* YYYanzhenViewController.h */,
+				FED6A2661CF6A6EF0040F54F /* YYYanzhenViewController.m */,
+				FED6A2681CF6A6FD0040F54F /* YYMimaViewController.h */,
+				FED6A2691CF6A6FD0040F54F /* YYMimaViewController.m */,
 			);
 			name = "快速注册";
 			sourceTree = "<group>";
@@ -516,9 +688,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEFB09821CEE9C590047ED8C /* Build configuration list for PBXNativeTarget "last" */;
 			buildPhases = (
+				B84416A51EA2BD7AEF19F4C9 /* Check Pods Manifest.lock */,
 				FEFB094E1CEE9C590047ED8C /* Sources */,
 				FEFB094F1CEE9C590047ED8C /* Frameworks */,
 				FEFB09501CEE9C590047ED8C /* Resources */,
+				877DC640D3A5F3DE4887B843 /* Embed Pods Frameworks */,
+				93E33706D0CA0F5E5B62A565 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -637,6 +812,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		877DC640D3A5F3DE4887B843 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93E33706D0CA0F5E5B62A565 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B84416A51EA2BD7AEF19F4C9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FEFB094E1CEE9C590047ED8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -652,7 +875,9 @@
 				FEFCAA851CF5A0950000B2FC /* YYDuoqiViewController.m in Sources */,
 				FEFCAAAA1CF5A2B90000B2FC /* YYGerenTableViewController.m in Sources */,
 				FEFCAA971CF5A1050000B2FC /* YYBaoshiViewController.m in Sources */,
+				FED6A21C1CF690820040F54F /* YYHomeJiexiaoTableViewCell.m in Sources */,
 				FEFCAAC81CF5A8A00000B2FC /* YYChangeAddTableViewController.m in Sources */,
+				FED6A26D1CF6A7B90040F54F /* YYListTableViewCell.m in Sources */,
 				FEFCAA821CF5A07B0000B2FC /* YYDuobaoViewController.m in Sources */,
 				FEFCAACB1CF5A9780000B2FC /* YYWangqiViewController.m in Sources */,
 				FEFB095D1CEE9C590047ED8C /* ViewController.m in Sources */,
@@ -663,18 +888,22 @@
 				FEFCAA611CF587E20000B2FC /* YYFenleiViewController.m in Sources */,
 				FEFCAA9D1CF5A1220000B2FC /* YYKefuViewController.m in Sources */,
 				FEFCAA8E1CF5A0D50000B2FC /* YYHongbaoViewController.m in Sources */,
+				FED6A2671CF6A6EF0040F54F /* YYYanzhenViewController.m in Sources */,
 				FEFCAA881CF5A0B00000B2FC /* YYLuckyViewController.m in Sources */,
 				FEFCAACE1CF5A98A0000B2FC /* YYTuwenViewController.m in Sources */,
 				FEFB09921CEEA1560047ED8C /* YYHomeController.m in Sources */,
 				FEFCAAB91CF5A7FA0000B2FC /* YYAddressViewController.m in Sources */,
+				FE02C8B61CF7F69200AF3717 /* YYloginNavViewController.m in Sources */,
 				FEFCAA9A1CF5A1160000B2FC /* YYChongzhiViewController.m in Sources */,
+				FED6A2641CF699FC0040F54F /* YYJiexiaoCollectionViewCell.m in Sources */,
 				FEFCAA911CF5A0E30000B2FC /* YYHopeViewController.m in Sources */,
-				FEFCAAA31CF5A13F0000B2FC /* YYZhuceViewController.m in Sources */,
 				FEFB09631CEE9C590047ED8C /* last.xcdatamodeld in Sources */,
 				FEFCAA701CF596960000B2FC /* YYPersonTableViewController.m in Sources */,
 				FEFB095A1CEE9C590047ED8C /* AppDelegate.m in Sources */,
 				FEFCAA641CF587F00000B2FC /* YYListViewController.m in Sources */,
+				FED6A26A1CF6A6FD0040F54F /* YYMimaViewController.m in Sources */,
 				FEFCAAB11CF5A7670000B2FC /* YYTxiangqingViewController.m in Sources */,
+				FED6A21F1CF690B50040F54F /* YYHotTuijianTableViewCell.m in Sources */,
 				FEFB09571CEE9C590047ED8C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -816,8 +1045,11 @@
 		};
 		FEFB09831CEE9C590047ED8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8299B908B9004428D633287F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/last/PrefixHeader.pch";
 				INFOPLIST_FILE = last/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.last;
@@ -827,8 +1059,11 @@
 		};
 		FEFB09841CEE9C590047ED8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23FFA449334C15DFE599F52C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/last/PrefixHeader.pch";
 				INFOPLIST_FILE = last/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.last;
