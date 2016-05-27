@@ -33,11 +33,21 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 0;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
+    switch (section) {
+        case 0:
+            return 5;
+            break;
+        case 1:
+            return 1;
+            break;
+        default:
+            break;
+    }
     return 0;
 }
 
