@@ -1,27 +1,21 @@
 //
-//  YYMimaViewController.m
+//  YYNiknameViewController.m
 //  last
 //
-//  Created by 袁文轶 on 16/5/26.
+//  Created by 袁文轶 on 16/5/30.
 //  Copyright © 2016年 袁文轶. All rights reserved.
 //
 
-#import "YYMimaViewController.h"
+#import "YYNiknameViewController.h"
 
-@interface YYMimaViewController ()
+@interface YYNiknameViewController ()
 
 @end
 
-@implementation YYMimaViewController
+@implementation YYNiknameViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UILabel *customLab = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 0, 40)];
-    [customLab setTextColor:[UIColor whiteColor]];
-    [customLab setText:@"注册"];
-    customLab.font = [UIFont boldSystemFontOfSize:20];
-    self.navigationItem.titleView = customLab;
-    self.navigationController.navigationBar.translucent = NO;
     // Do any additional setup after loading the view.
 }
 

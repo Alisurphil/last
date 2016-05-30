@@ -10,6 +10,8 @@
 #import "YYYanzhenViewController.h"
 #import "AppDelegate.h"
 @interface YYLoginViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *userID;
+@property (weak, nonatomic) IBOutlet UITextField *userPW;
 
 
 @end
@@ -19,10 +21,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBarHidden = YES;
-    
+    UIImageView *image=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"图层-6"]];
+    _userID.leftView=image;
+    _userID.leftViewMode = UITextFieldViewModeAlways;
+    UIImageView *image1=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"图层-5"]];
+    _userPW.leftView=image1;
+    UIImageView *image2=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"忘记密码？"]];
+    _userPW.rightView = image2;
+    _userPW.leftViewMode = UITextFieldViewModeAlways;
+    _userPW.rightViewMode = UITextFieldViewModeAlways;
     // Do any additional setup after loading the view.
 
 }
+
 -(void)viewWillAppear:(BOOL)animated{
     self.navigationController.navigationBarHidden = YES;
 

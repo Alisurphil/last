@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YYloginNavViewController : UINavigationController
+@interface YYloginNavViewController : UINavigationController<UINavigationControllerDelegate>
 
 @end
