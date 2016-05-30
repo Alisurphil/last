@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C832263D7D0E456118B36D60 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C5A7159F22866A6D716449 /* libPods.a */; };
+		C9052D7A1CFC3B2500CE91DB /* AFViewShaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C9052D791CFC3B2500CE91DB /* AFViewShaker.m */; };
 		FE02C8B61CF7F69200AF3717 /* YYloginNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE02C8B51CF7F69200AF3717 /* YYloginNavViewController.m */; };
 		FE2B183C1CFC2D3D00E9FF7F /* YYNiknameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2B183B1CFC2D3D00E9FF7F /* YYNiknameViewController.m */; };
 		FE5F70071CF6C06C0021C5B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5F70061CF6C06C0021C5B5 /* Foundation.framework */; };
@@ -78,6 +79,8 @@
 		23FFA449334C15DFE599F52C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		52C5A7159F22866A6D716449 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8299B908B9004428D633287F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C9052D781CFC3B2500CE91DB /* AFViewShaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFViewShaker.h; sourceTree = "<group>"; };
+		C9052D791CFC3B2500CE91DB /* AFViewShaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFViewShaker.m; sourceTree = "<group>"; };
 		FE02C8B41CF7F69200AF3717 /* YYloginNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYloginNavViewController.h; sourceTree = "<group>"; };
 		FE02C8B51CF7F69200AF3717 /* YYloginNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYloginNavViewController.m; sourceTree = "<group>"; };
 		FE2B183A1CFC2D3D00E9FF7F /* YYNiknameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNiknameViewController.h; sourceTree = "<group>"; };
@@ -207,6 +210,15 @@
 				52C5A7159F22866A6D716449 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9052D771CFC3B1200CE91DB /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				C9052D781CFC3B2500CE91DB /* AFViewShaker.h */,
+				C9052D791CFC3B2500CE91DB /* AFViewShaker.m */,
+			);
+			name = 3rd;
 			sourceTree = "<group>";
 		};
 		EC3C9F5FA2291B05FBB59750 /* Pods */ = {
@@ -349,6 +361,7 @@
 		FEFB09541CEE9C590047ED8C /* last */ = {
 			isa = PBXGroup;
 			children = (
+				C9052D771CFC3B1200CE91DB /* 3rd */,
 				FEFB098B1CEEA0260047ED8C /* Base */,
 				FEFCAA561CF576D30000B2FC /* Model */,
 				FEFCAA571CF57C2D0000B2FC /* View */,
@@ -903,6 +916,7 @@
 				FED6A2641CF699FC0040F54F /* YYJiexiaoCollectionViewCell.m in Sources */,
 				FEFCAA911CF5A0E30000B2FC /* YYHopeViewController.m in Sources */,
 				FEFB09631CEE9C590047ED8C /* last.xcdatamodeld in Sources */,
+				C9052D7A1CFC3B2500CE91DB /* AFViewShaker.m in Sources */,
 				FEFCAA701CF596960000B2FC /* YYPersonTableViewController.m in Sources */,
 				FE2B183C1CFC2D3D00E9FF7F /* YYNiknameViewController.m in Sources */,
 				FEFB095A1CEE9C590047ED8C /* AppDelegate.m in Sources */,
