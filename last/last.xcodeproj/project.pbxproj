@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C832263D7D0E456118B36D60 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C5A7159F22866A6D716449 /* libPods.a */; };
 		FE02C8B61CF7F69200AF3717 /* YYloginNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE02C8B51CF7F69200AF3717 /* YYloginNavViewController.m */; };
+		FE2B183C1CFC2D3D00E9FF7F /* YYNiknameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2B183B1CFC2D3D00E9FF7F /* YYNiknameViewController.m */; };
 		FE5F70071CF6C06C0021C5B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5F70061CF6C06C0021C5B5 /* Foundation.framework */; };
 		FED6A21C1CF690820040F54F /* YYHomeJiexiaoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6A21B1CF690820040F54F /* YYHomeJiexiaoTableViewCell.m */; };
 		FED6A21F1CF690B50040F54F /* YYHotTuijianTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6A21E1CF690B50040F54F /* YYHotTuijianTableViewCell.m */; };
@@ -79,6 +80,8 @@
 		8299B908B9004428D633287F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FE02C8B41CF7F69200AF3717 /* YYloginNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYloginNavViewController.h; sourceTree = "<group>"; };
 		FE02C8B51CF7F69200AF3717 /* YYloginNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYloginNavViewController.m; sourceTree = "<group>"; };
+		FE2B183A1CFC2D3D00E9FF7F /* YYNiknameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNiknameViewController.h; sourceTree = "<group>"; };
+		FE2B183B1CFC2D3D00E9FF7F /* YYNiknameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNiknameViewController.m; sourceTree = "<group>"; };
 		FE5F70051CF6BE560021C5B5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FE5F70061CF6C06C0021C5B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FED6A21A1CF690820040F54F /* YYHomeJiexiaoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHomeJiexiaoTableViewCell.h; sourceTree = "<group>"; };
@@ -635,6 +638,8 @@
 				FED6A2661CF6A6EF0040F54F /* YYYanzhenViewController.m */,
 				FED6A2681CF6A6FD0040F54F /* YYMimaViewController.h */,
 				FED6A2691CF6A6FD0040F54F /* YYMimaViewController.m */,
+				FE2B183A1CFC2D3D00E9FF7F /* YYNiknameViewController.h */,
+				FE2B183B1CFC2D3D00E9FF7F /* YYNiknameViewController.m */,
 			);
 			name = "快速注册";
 			sourceTree = "<group>";
@@ -899,6 +904,7 @@
 				FEFCAA911CF5A0E30000B2FC /* YYHopeViewController.m in Sources */,
 				FEFB09631CEE9C590047ED8C /* last.xcdatamodeld in Sources */,
 				FEFCAA701CF596960000B2FC /* YYPersonTableViewController.m in Sources */,
+				FE2B183C1CFC2D3D00E9FF7F /* YYNiknameViewController.m in Sources */,
 				FEFB095A1CEE9C590047ED8C /* AppDelegate.m in Sources */,
 				FEFCAA641CF587F00000B2FC /* YYListViewController.m in Sources */,
 				FED6A26A1CF6A6FD0040F54F /* YYMimaViewController.m in Sources */,
