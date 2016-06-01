@@ -32,14 +32,18 @@
     self.navigationItem.backBarButtonItem = item;*/
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     UIImageView *image=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Mobile"]];
+    //image.frame = CGRectMake(100, 0, 15, 20);
+    image.bounds = CGRectMake(0, 0, 25, 20);
     _userPN.leftView=image;
     _userPN.leftViewMode = UITextFieldViewModeAlways;
     
     UIImageView *image1=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"key"]];
+    image1.bounds = CGRectMake(0, 0, 20, 20);
     _userYZ.leftView=image1;
     _userYZ.leftViewMode = UITextFieldViewModeAlways;
     
     UIImageView *image2=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"发送验证码"]];
+    image2.bounds = CGRectMake(0, 0, 70, 25);
     _userYZ.rightView=image2;
     _userYZ.rightViewMode = UITextFieldViewModeAlways;
     
