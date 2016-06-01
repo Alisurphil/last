@@ -36,12 +36,26 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+//#warning Incomplete implementation, return the number of sections
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
+//#warning Incomplete implementation, return the number of rows
+    switch (section) {
+        case 0:
+            return 2;
+            break;
+        case 1 :
+            return 8;
+            break;
+        case 2 :
+            return 2;
+            break;
+            
+        default:
+            break;
+    }
     return 0;
 }
 
