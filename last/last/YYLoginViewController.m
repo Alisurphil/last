@@ -12,6 +12,7 @@
 #import "AFViewShaker.h"
 
 @interface YYLoginViewController ()
+- (IBAction)Back:(UIButton *)sender forEvent:(UIEvent *)event;
 @property (weak, nonatomic) IBOutlet UITextField *userID;
 @property (weak, nonatomic) IBOutlet UITextField *userPW;
 
@@ -64,6 +65,7 @@
 
 - (IBAction)onShakeOneAction:(UIButton *)sender {
     [self.viewShaker shake];
+    
 }
 
 -(void)viewWillAppear:(BOOL)animated{
@@ -108,4 +110,7 @@
 */
 
 
+- (IBAction)Back:(UIButton *)sender forEvent:(UIEvent *)event {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

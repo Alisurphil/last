@@ -485,7 +485,7 @@
 				FEFCAA7A1CF59A040000B2FC /* 晒单 */,
 				FEFCAA791CF599F70000B2FC /* 心愿单 */,
 				FEFCAA781CF599F00000B2FC /* 红包 */,
-				FEFCAA771CF599E00000B2FC /* 购买记录 */,
+				FEFCAA771CF599E00000B2FC /* 个人信息 */,
 				FEFCAA761CF599CA0000B2FC /* 幸运记录 */,
 				FEFCAA751CF599AD0000B2FC /* 多期参与 */,
 				FEFCAA741CF599930000B2FC /* 夺宝记录 */,
@@ -574,13 +574,13 @@
 			name = "幸运记录";
 			sourceTree = "<group>";
 		};
-		FEFCAA771CF599E00000B2FC /* 购买记录 */ = {
+		FEFCAA771CF599E00000B2FC /* 个人信息 */ = {
 			isa = PBXGroup;
 			children = (
 				FEFCAA891CF5A0C40000B2FC /* YYBuyViewController.h */,
 				FEFCAA8A1CF5A0C40000B2FC /* YYBuyViewController.m */,
 			);
-			name = "购买记录";
+			name = "个人信息";
 			sourceTree = "<group>";
 		};
 		FEFCAA781CF599F00000B2FC /* 红包 */ = {
