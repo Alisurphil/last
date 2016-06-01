@@ -1,18 +1,18 @@
 //
-//  YYKefuViewController.m
+//  YYHnavViewController.m
 //  last
 //
-//  Created by 袁文轶 on 16/5/25.
+//  Created by 袁文轶 on 16/6/1.
 //  Copyright © 2016年 袁文轶. All rights reserved.
 //
 
-#import "YYKefuViewController.h"
+#import "YYHnavViewController.h"
 
-@interface YYKefuViewController ()
+@interface YYHnavViewController ()
 
 @end
 
-@implementation YYKefuViewController
+@implementation YYHnavViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

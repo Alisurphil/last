@@ -10,7 +10,9 @@
 		C832263D7D0E456118B36D60 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C5A7159F22866A6D716449 /* libPods.a */; };
 		C9052D7A1CFC3B2500CE91DB /* AFViewShaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C9052D791CFC3B2500CE91DB /* AFViewShaker.m */; };
 		FE02C8B61CF7F69200AF3717 /* YYloginNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE02C8B51CF7F69200AF3717 /* YYloginNavViewController.m */; };
+		FE0F97691CFE76CE00774525 /* YYHnavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0F97681CFE76CE00774525 /* YYHnavViewController.m */; };
 		FE2B183C1CFC2D3D00E9FF7F /* YYNiknameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2B183B1CFC2D3D00E9FF7F /* YYNiknameViewController.m */; };
+		FE2CFD501CFD31B2007E1327 /* YYKefuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2CFD4F1CFD31B2007E1327 /* YYKefuTableViewController.m */; };
 		FE5F70071CF6C06C0021C5B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5F70061CF6C06C0021C5B5 /* Foundation.framework */; };
 		FED6A21C1CF690820040F54F /* YYHomeJiexiaoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6A21B1CF690820040F54F /* YYHomeJiexiaoTableViewCell.m */; };
 		FED6A21F1CF690B50040F54F /* YYHotTuijianTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6A21E1CF690B50040F54F /* YYHotTuijianTableViewCell.m */; };
@@ -44,7 +46,6 @@
 		FEFCAA941CF5A0F20000B2FC /* YYShaidanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAA931CF5A0F20000B2FC /* YYShaidanViewController.m */; };
 		FEFCAA971CF5A1050000B2FC /* YYBaoshiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAA961CF5A1050000B2FC /* YYBaoshiViewController.m */; };
 		FEFCAA9A1CF5A1160000B2FC /* YYChongzhiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAA991CF5A1160000B2FC /* YYChongzhiViewController.m */; };
-		FEFCAA9D1CF5A1220000B2FC /* YYKefuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAA9C1CF5A1220000B2FC /* YYKefuViewController.m */; };
 		FEFCAAA01CF5A1300000B2FC /* YYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAA9F1CF5A1300000B2FC /* YYLoginViewController.m */; };
 		FEFCAAAA1CF5A2B90000B2FC /* YYGerenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAAA91CF5A2B90000B2FC /* YYGerenTableViewController.m */; };
 		FEFCAAAE1CF5A74D0000B2FC /* YYTongzhiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAAAD1CF5A74D0000B2FC /* YYTongzhiViewController.m */; };
@@ -83,8 +84,12 @@
 		C9052D791CFC3B2500CE91DB /* AFViewShaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFViewShaker.m; sourceTree = "<group>"; };
 		FE02C8B41CF7F69200AF3717 /* YYloginNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYloginNavViewController.h; sourceTree = "<group>"; };
 		FE02C8B51CF7F69200AF3717 /* YYloginNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYloginNavViewController.m; sourceTree = "<group>"; };
+		FE0F97671CFE76CE00774525 /* YYHnavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHnavViewController.h; sourceTree = "<group>"; };
+		FE0F97681CFE76CE00774525 /* YYHnavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHnavViewController.m; sourceTree = "<group>"; };
 		FE2B183A1CFC2D3D00E9FF7F /* YYNiknameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNiknameViewController.h; sourceTree = "<group>"; };
 		FE2B183B1CFC2D3D00E9FF7F /* YYNiknameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNiknameViewController.m; sourceTree = "<group>"; };
+		FE2CFD4E1CFD31B2007E1327 /* YYKefuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKefuTableViewController.h; sourceTree = "<group>"; };
+		FE2CFD4F1CFD31B2007E1327 /* YYKefuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKefuTableViewController.m; sourceTree = "<group>"; };
 		FE5F70051CF6BE560021C5B5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FE5F70061CF6C06C0021C5B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FED6A21A1CF690820040F54F /* YYHomeJiexiaoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHomeJiexiaoTableViewCell.h; sourceTree = "<group>"; };
@@ -150,8 +155,6 @@
 		FEFCAA961CF5A1050000B2FC /* YYBaoshiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYBaoshiViewController.m; sourceTree = "<group>"; };
 		FEFCAA981CF5A1160000B2FC /* YYChongzhiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYChongzhiViewController.h; sourceTree = "<group>"; };
 		FEFCAA991CF5A1160000B2FC /* YYChongzhiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYChongzhiViewController.m; sourceTree = "<group>"; };
-		FEFCAA9B1CF5A1220000B2FC /* YYKefuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKefuViewController.h; sourceTree = "<group>"; };
-		FEFCAA9C1CF5A1220000B2FC /* YYKefuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKefuViewController.m; sourceTree = "<group>"; };
 		FEFCAA9E1CF5A1300000B2FC /* YYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLoginViewController.h; sourceTree = "<group>"; };
 		FEFCAA9F1CF5A1300000B2FC /* YYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLoginViewController.m; sourceTree = "<group>"; };
 		FEFCAAA81CF5A2B90000B2FC /* YYGerenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYGerenTableViewController.h; sourceTree = "<group>"; };
@@ -421,6 +424,8 @@
 			children = (
 				FEFB09901CEEA1560047ED8C /* YYHomeController.h */,
 				FEFB09911CEEA1560047ED8C /* YYHomeController.m */,
+				FE0F97671CFE76CE00774525 /* YYHnavViewController.h */,
+				FE0F97681CFE76CE00774525 /* YYHnavViewController.m */,
 			);
 			name = "首页";
 			sourceTree = "<group>";
@@ -626,8 +631,8 @@
 		FEFCAA7D1CF59A200000B2FC /* 客服 */ = {
 			isa = PBXGroup;
 			children = (
-				FEFCAA9B1CF5A1220000B2FC /* YYKefuViewController.h */,
-				FEFCAA9C1CF5A1220000B2FC /* YYKefuViewController.m */,
+				FE2CFD4E1CFD31B2007E1327 /* YYKefuTableViewController.h */,
+				FE2CFD4F1CFD31B2007E1327 /* YYKefuTableViewController.m */,
 			);
 			name = "客服";
 			sourceTree = "<group>";
@@ -902,15 +907,16 @@
 				FEFCAA731CF596C90000B2FC /* YYDetailsTableViewController.m in Sources */,
 				FEFCAAC51CF5A88C0000B2FC /* YYGetAddTableViewController.m in Sources */,
 				FEFCAAA01CF5A1300000B2FC /* YYLoginViewController.m in Sources */,
+				FE0F97691CFE76CE00774525 /* YYHnavViewController.m in Sources */,
 				FEFCAAAE1CF5A74D0000B2FC /* YYTongzhiViewController.m in Sources */,
 				FEFCAA611CF587E20000B2FC /* YYFenleiViewController.m in Sources */,
-				FEFCAA9D1CF5A1220000B2FC /* YYKefuViewController.m in Sources */,
 				FEFCAA8E1CF5A0D50000B2FC /* YYHongbaoViewController.m in Sources */,
 				FED6A2671CF6A6EF0040F54F /* YYYanzhenViewController.m in Sources */,
 				FEFCAA881CF5A0B00000B2FC /* YYLuckyViewController.m in Sources */,
 				FEFCAACE1CF5A98A0000B2FC /* YYTuwenViewController.m in Sources */,
 				FEFB09921CEEA1560047ED8C /* YYHomeController.m in Sources */,
 				FEFCAAB91CF5A7FA0000B2FC /* YYAddressViewController.m in Sources */,
+				FE2CFD501CFD31B2007E1327 /* YYKefuTableViewController.m in Sources */,
 				FE02C8B61CF7F69200AF3717 /* YYloginNavViewController.m in Sources */,
 				FEFCAA9A1CF5A1160000B2FC /* YYChongzhiViewController.m in Sources */,
 				FED6A2641CF699FC0040F54F /* YYJiexiaoCollectionViewCell.m in Sources */,

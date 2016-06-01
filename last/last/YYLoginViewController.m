@@ -30,14 +30,19 @@
     self.viewShaker = [[AFViewShaker alloc] initWithViewsArray:self.allTextFields];
     self.navigationController.navigationBarHidden = YES;
     UIImageView *image=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"图层-6"]];
+    //image.frame = CGRectMake(0, 0, 30, 25);
+    image.bounds = CGRectMake(100, 100, 25, 20);
     _userID.leftView=image;
     _userID.leftViewMode = UITextFieldViewModeAlways;
     UIImageView *image1=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"图层-5"]];
+    image1.bounds = CGRectMake(100, 100, 25, 20);
     _userPW.leftView=image1;
     UIImageView *image2=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"忘记密码？"]];
+    image2.bounds = CGRectMake(100, 100, 65, 25);
     _userPW.rightView = image2;
     _userPW.leftViewMode = UITextFieldViewModeAlways;
     _userPW.rightViewMode = UITextFieldViewModeAlways;
+    
     // Do any additional setup after loading the view.
 
     //初始化手势并且申明手势触发的事件的方法名keyboardTrick
