@@ -12,6 +12,8 @@
 #import "AFViewShaker.h"
 
 @interface YYLoginViewController ()
+- (IBAction)Back:(UIBarButtonItem *)sender;
+
 - (IBAction)Back:(UIButton *)sender forEvent:(UIEvent *)event;
 @property (weak, nonatomic) IBOutlet UITextField *userID;
 @property (weak, nonatomic) IBOutlet UITextField *userPW;
@@ -109,6 +111,10 @@
 }
 */
 
+
+- (IBAction)Back:(UIBarButtonItem *)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 - (IBAction)Back:(UIButton *)sender forEvent:(UIEvent *)event {
     [self dismissViewControllerAnimated:YES completion:nil];

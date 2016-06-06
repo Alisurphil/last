@@ -26,10 +26,10 @@
     customLab.font = [UIFont boldSystemFontOfSize:20];
     self.navigationItem.titleView = customLab;
     self.navigationController.navigationBar.translucent = NO;
-    
     //[customLab release];
-    /*UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:nil action:nil];
-    self.navigationItem.backBarButtonItem = item;*/
+    
+     
+    //给textfield添加左右两边的图片
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     UIImageView *image=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Mobile"]];
     //image.frame = CGRectMake(100, 0, 15, 20);
