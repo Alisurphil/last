@@ -12,9 +12,11 @@
 #import "AFViewShaker.h"
 
 @interface YYLoginViewController ()
-- (IBAction)Back:(UIBarButtonItem *)sender;
 
-- (IBAction)Back:(UIButton *)sender forEvent:(UIEvent *)event;
+- (IBAction)Cancel:(UIBarButtonItem *)sender;
+
+@property (weak, nonatomic) IBOutlet UIButton *zhuce;
+
 @property (weak, nonatomic) IBOutlet UITextField *userID;
 @property (weak, nonatomic) IBOutlet UITextField *userPW;
 
@@ -30,11 +32,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _zhuce.layer.borderColor = [[UIColor colorWithRed:206.f/255.f green:204.f/255.f blue:204.f/255.f alpha:1.f] CGColor];
+
     self.viewShaker = [[AFViewShaker alloc] initWithViewsArray:self.allTextFields];
-    self.navigationController.navigationBarHidden = YES;
+    //self.navigationController.navigationBarHidden = YES;
     UIImageView *image=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"图层-6"]];
     //image.frame = CGRectMake(0, 0, 30, 25);
-    image.bounds = CGRectMake(100, 100, 25, 20);
+    image.bounds = CGRectMake(100, 100, 27, 20);
     _userID.leftView=image;
     _userID.leftViewMode = UITextFieldViewModeAlways;
     UIImageView *image1=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"图层-5"]];
@@ -71,7 +75,7 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated{
-    self.navigationController.navigationBarHidden = YES;
+    //self.navigationController.navigationBarHidden = YES;
 
 }
 
@@ -112,11 +116,11 @@
 */
 
 
-- (IBAction)Back:(UIBarButtonItem *)sender {
+
+
+- (IBAction)Cancel:(UIBarButtonItem *)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (IBAction)Back:(UIButton *)sender forEvent:(UIEvent *)event {
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
+
 @end

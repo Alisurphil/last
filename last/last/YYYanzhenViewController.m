@@ -42,10 +42,10 @@
     _userYZ.leftView=image1;
     _userYZ.leftViewMode = UITextFieldViewModeAlways;
     
-    UIImageView *image2=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"发送验证码"]];
+    /*UIImageView *image2=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"发送验证码"]];
     image2.bounds = CGRectMake(0, 0, 70, 25);
     _userYZ.rightView=image2;
-    _userYZ.rightViewMode = UITextFieldViewModeAlways;
+    _userYZ.rightViewMode = UITextFieldViewModeAlways;*/
     
     //初始化手势并且申明手势触发的事件的方法名keyboardTrick
     _tapTrick = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(keyboardTrick:)];

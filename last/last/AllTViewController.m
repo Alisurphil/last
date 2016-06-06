@@ -1,28 +1,23 @@
 //
-//  YYloginNavViewController.m
+//  AllTViewController.m
 //  last
 //
-//  Created by 袁文轶 on 16/5/27.
+//  Created by 袁文轶 on 16/6/6.
 //  Copyright © 2016年 袁文轶. All rights reserved.
 //
 
-#import "YYloginNavViewController.h"
+#import "AllTViewController.h"
 
-@interface YYloginNavViewController ()
+@interface AllTViewController ()
 
 @end
 
-@implementation YYloginNavViewController
+@implementation AllTViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
     // Do any additional setup after loading the view.
-    //[self.navigationBar setBackgroundImage:[UIImage imageNamed:@"Image"] forBarMetrics:UIBarMetricsDefault];
-    //[[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
 }
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

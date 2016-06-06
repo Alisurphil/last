@@ -14,9 +14,9 @@
 		FE2B183C1CFC2D3D00E9FF7F /* YYNiknameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2B183B1CFC2D3D00E9FF7F /* YYNiknameViewController.m */; };
 		FE2CFD501CFD31B2007E1327 /* YYKefuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2CFD4F1CFD31B2007E1327 /* YYKefuTableViewController.m */; };
 		FE5F70071CF6C06C0021C5B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5F70061CF6C06C0021C5B5 /* Foundation.framework */; };
+		FEC399FE1D055945000C24B1 /* AllTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC399FD1D055945000C24B1 /* AllTViewController.m */; };
 		FED6A21C1CF690820040F54F /* YYHomeJiexiaoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6A21B1CF690820040F54F /* YYHomeJiexiaoTableViewCell.m */; };
 		FED6A21F1CF690B50040F54F /* YYHotTuijianTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6A21E1CF690B50040F54F /* YYHotTuijianTableViewCell.m */; };
-		FED6A2641CF699FC0040F54F /* YYJiexiaoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6A2631CF699FC0040F54F /* YYJiexiaoCollectionViewCell.m */; };
 		FED6A2671CF6A6EF0040F54F /* YYYanzhenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6A2661CF6A6EF0040F54F /* YYYanzhenViewController.m */; };
 		FED6A26A1CF6A6FD0040F54F /* YYMimaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6A2691CF6A6FD0040F54F /* YYMimaViewController.m */; };
 		FED6A26D1CF6A7B90040F54F /* YYListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6A26C1CF6A7B90040F54F /* YYListTableViewCell.m */; };
@@ -34,7 +34,6 @@
 		FEFCAA5B1CF586490000B2FC /* YYSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAA5A1CF586490000B2FC /* YYSearchViewController.m */; };
 		FEFCAA611CF587E20000B2FC /* YYFenleiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAA601CF587E20000B2FC /* YYFenleiViewController.m */; };
 		FEFCAA641CF587F00000B2FC /* YYListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAA631CF587F00000B2FC /* YYListViewController.m */; };
-		FEFCAA6D1CF595100000B2FC /* YYJiexiaoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAA6C1CF595100000B2FC /* YYJiexiaoCollectionViewController.m */; };
 		FEFCAA701CF596960000B2FC /* YYPersonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAA6F1CF596950000B2FC /* YYPersonTableViewController.m */; };
 		FEFCAA731CF596C90000B2FC /* YYDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAA721CF596C90000B2FC /* YYDetailsTableViewController.m */; };
 		FEFCAA821CF5A07B0000B2FC /* YYDuobaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCAA811CF5A07B0000B2FC /* YYDuobaoViewController.m */; };
@@ -92,12 +91,12 @@
 		FE2CFD4F1CFD31B2007E1327 /* YYKefuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKefuTableViewController.m; sourceTree = "<group>"; };
 		FE5F70051CF6BE560021C5B5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FE5F70061CF6C06C0021C5B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEC399FC1D055945000C24B1 /* AllTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllTViewController.h; sourceTree = "<group>"; };
+		FEC399FD1D055945000C24B1 /* AllTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllTViewController.m; sourceTree = "<group>"; };
 		FED6A21A1CF690820040F54F /* YYHomeJiexiaoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHomeJiexiaoTableViewCell.h; sourceTree = "<group>"; };
 		FED6A21B1CF690820040F54F /* YYHomeJiexiaoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHomeJiexiaoTableViewCell.m; sourceTree = "<group>"; };
 		FED6A21D1CF690B50040F54F /* YYHotTuijianTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHotTuijianTableViewCell.h; sourceTree = "<group>"; };
 		FED6A21E1CF690B50040F54F /* YYHotTuijianTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHotTuijianTableViewCell.m; sourceTree = "<group>"; };
-		FED6A2621CF699FC0040F54F /* YYJiexiaoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJiexiaoCollectionViewCell.h; sourceTree = "<group>"; };
-		FED6A2631CF699FC0040F54F /* YYJiexiaoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJiexiaoCollectionViewCell.m; sourceTree = "<group>"; };
 		FED6A2651CF6A6EF0040F54F /* YYYanzhenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYYanzhenViewController.h; sourceTree = "<group>"; };
 		FED6A2661CF6A6EF0040F54F /* YYYanzhenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYYanzhenViewController.m; sourceTree = "<group>"; };
 		FED6A2681CF6A6FD0040F54F /* YYMimaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMimaViewController.h; sourceTree = "<group>"; };
@@ -131,8 +130,6 @@
 		FEFCAA601CF587E20000B2FC /* YYFenleiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFenleiViewController.m; sourceTree = "<group>"; };
 		FEFCAA621CF587F00000B2FC /* YYListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYListViewController.h; sourceTree = "<group>"; };
 		FEFCAA631CF587F00000B2FC /* YYListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYListViewController.m; sourceTree = "<group>"; };
-		FEFCAA6B1CF595100000B2FC /* YYJiexiaoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJiexiaoCollectionViewController.h; sourceTree = "<group>"; };
-		FEFCAA6C1CF595100000B2FC /* YYJiexiaoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJiexiaoCollectionViewController.m; sourceTree = "<group>"; };
 		FEFCAA6E1CF596950000B2FC /* YYPersonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPersonTableViewController.h; sourceTree = "<group>"; };
 		FEFCAA6F1CF596950000B2FC /* YYPersonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPersonTableViewController.m; sourceTree = "<group>"; };
 		FEFCAA711CF596C90000B2FC /* YYDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDetailsTableViewController.h; sourceTree = "<group>"; };
@@ -244,13 +241,11 @@
 			name = "首页";
 			sourceTree = "<group>";
 		};
-		FED6A20D1CF68CC40040F54F /* 最新揭晓 */ = {
+		FED6A20D1CF68CC40040F54F /* 全部商品 */ = {
 			isa = PBXGroup;
 			children = (
-				FED6A2621CF699FC0040F54F /* YYJiexiaoCollectionViewCell.h */,
-				FED6A2631CF699FC0040F54F /* YYJiexiaoCollectionViewCell.m */,
 			);
-			name = "最新揭晓";
+			name = "全部商品";
 			sourceTree = "<group>";
 		};
 		FED6A20E1CF68CD30040F54F /* 分类 */ = {
@@ -290,11 +285,11 @@
 			name = "首页";
 			sourceTree = "<group>";
 		};
-		FED6A2131CF68D560040F54F /* 最新揭晓 */ = {
+		FED6A2131CF68D560040F54F /* 全部商品 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "最新揭晓";
+			name = "全部商品";
 			sourceTree = "<group>";
 		};
 		FED6A2141CF68D5F0040F54F /* 分类 */ = {
@@ -438,20 +433,20 @@
 				FEFCAA521CF54C600000B2FC /* 个人中心 */,
 				FEFCAA511CF54C590000B2FC /* 清单 */,
 				FEFCAA501CF54C510000B2FC /* 分类 */,
-				FEFCAA4F1CF54C360000B2FC /* 最新揭晓 */,
+				FEFCAA4F1CF54C360000B2FC /* 全部商品 */,
 				FEFCAA551CF556D60000B2FC /* 搜索 */,
 				FEFB098F1CEEA1320047ED8C /* 首页 */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
 		};
-		FEFCAA4F1CF54C360000B2FC /* 最新揭晓 */ = {
+		FEFCAA4F1CF54C360000B2FC /* 全部商品 */ = {
 			isa = PBXGroup;
 			children = (
-				FEFCAA6B1CF595100000B2FC /* YYJiexiaoCollectionViewController.h */,
-				FEFCAA6C1CF595100000B2FC /* YYJiexiaoCollectionViewController.m */,
+				FEC399FC1D055945000C24B1 /* AllTViewController.h */,
+				FEC399FD1D055945000C24B1 /* AllTViewController.m */,
 			);
-			name = "最新揭晓";
+			name = "全部商品";
 			sourceTree = "<group>";
 		};
 		FEFCAA501CF54C510000B2FC /* 分类 */ = {
@@ -512,7 +507,7 @@
 				FED6A2161CF68D760040F54F /* 个人中心 */,
 				FED6A2151CF68D680040F54F /* 清单 */,
 				FED6A2141CF68D5F0040F54F /* 分类 */,
-				FED6A2131CF68D560040F54F /* 最新揭晓 */,
+				FED6A2131CF68D560040F54F /* 全部商品 */,
 				FED6A2121CF68D4F0040F54F /* 首页 */,
 			);
 			name = Model;
@@ -526,7 +521,7 @@
 				FED6A2101CF68CF70040F54F /* 个人中心 */,
 				FED6A20F1CF68CE30040F54F /* 清单 */,
 				FED6A20E1CF68CD30040F54F /* 分类 */,
-				FED6A20D1CF68CC40040F54F /* 最新揭晓 */,
+				FED6A20D1CF68CC40040F54F /* 全部商品 */,
 				FED6A20C1CF68CAC0040F54F /* 首页 */,
 			);
 			name = View;
@@ -890,12 +885,12 @@
 			files = (
 				FEFCAAC21CF5A86C0000B2FC /* YYChangePNTableViewController.m in Sources */,
 				FEFCAA941CF5A0F20000B2FC /* YYShaidanViewController.m in Sources */,
-				FEFCAA6D1CF595100000B2FC /* YYJiexiaoCollectionViewController.m in Sources */,
 				FEFCAA8B1CF5A0C40000B2FC /* YYBuyViewController.m in Sources */,
 				FEFB098E1CEEA0680047ED8C /* YYViewController.m in Sources */,
 				FEFCAAD11CF5A99B0000B2FC /* YYShareshaiViewController.m in Sources */,
 				FEFCAA5B1CF586490000B2FC /* YYSearchViewController.m in Sources */,
 				FEFCAA851CF5A0950000B2FC /* YYDuoqiViewController.m in Sources */,
+				FEC399FE1D055945000C24B1 /* AllTViewController.m in Sources */,
 				FEFCAAAA1CF5A2B90000B2FC /* YYGerenTableViewController.m in Sources */,
 				FEFCAA971CF5A1050000B2FC /* YYBaoshiViewController.m in Sources */,
 				FED6A21C1CF690820040F54F /* YYHomeJiexiaoTableViewCell.m in Sources */,
@@ -919,7 +914,6 @@
 				FE2CFD501CFD31B2007E1327 /* YYKefuTableViewController.m in Sources */,
 				FE02C8B61CF7F69200AF3717 /* YYloginNavViewController.m in Sources */,
 				FEFCAA9A1CF5A1160000B2FC /* YYChongzhiViewController.m in Sources */,
-				FED6A2641CF699FC0040F54F /* YYJiexiaoCollectionViewCell.m in Sources */,
 				FEFCAA911CF5A0E30000B2FC /* YYHopeViewController.m in Sources */,
 				FEFB09631CEE9C590047ED8C /* last.xcdatamodeld in Sources */,
 				C9052D7A1CFC3B2500CE91DB /* AFViewShaker.m in Sources */,
